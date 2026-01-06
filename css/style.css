@@ -6,6 +6,7 @@
     margin: 0;
     font-family: "Hiragino Kaku Gothic ProN", sans-serif;
     color: #000;
+    background-color: #eaf5ee; /* ← 追加：淡いライトグリーン */
   }
   
   a {
@@ -16,8 +17,9 @@
   /* ===== 全体枠 ===== */
   .container {
     width: 900px;
-    margin: 0 auto;
+    margin: 30px auto;          /* 背景色が見えるように少し余白 */
     border: 2px solid #000;
+    background-color: #9fc29f;     /* 中身は白のまま */
   }
   
   /* ===== ヘッダー ===== */
@@ -100,12 +102,17 @@
   .price {
     display: flex;
     justify-content: center;
-    gap: 60px;
+    gap: 80px;
   }
+    .nedan {
+        font-weight: bold;
+        font-size: 40px;
+    }
   
   .note {
     color: red;
-    font-size: 12px;
+    font-size: 20px;
     margin-top: 10px;
   }
+  
   
