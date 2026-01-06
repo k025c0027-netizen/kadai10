@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+    color: #000;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  /* ===== 全体枠 ===== */
+  .container {
+    width: 900px;
+    margin: 0 auto;
+    border: 2px solid #000;
+  }
+  
+  /* ===== ヘッダー ===== */
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 2px solid #000;
+  }
+  
+  nav a {
+    margin-left: 20px;
+  }
+  
+  /* ===== メイン ===== */
+  main {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  /* ===== フッター ===== */
+  footer {
+    border-top: 2px solid #000;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  /* ===== 見出し ===== */
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .line-title {
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #000;
+    margin: 40px 0 30px;
+  }
+  
+  /* ===== 画像 ===== */
+  .image-large {
+    width: 100%;
+    max-width: 700px;
+  }
+  
+  .image-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .image-grid img {
+    width: 260px;
+  }
+  
+  /* ===== 枠 ===== */
+  .box {
+    border: 2px solid #000;
+    padding: 40px;
+    margin: 40px auto;
+    width: 80%;
+  }
+  
+  .dashed-box {
+    border: 2px dashed #000;
+    padding: 15px;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  /* ===== 価格 ===== */
+  .price {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+  }
+  
+  .note {
+    color: red;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  
