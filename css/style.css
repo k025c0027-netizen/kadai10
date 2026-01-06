@@ -84,6 +84,11 @@
     width: 80%;
   }
   
+  .box img {
+    max-width: 500px;
+    margin-top: 20px;
+  }
+  
   .dashed-box {
     border: 2px dashed #000;
     padding: 15px;
